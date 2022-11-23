@@ -9,7 +9,7 @@ All content involved steps followed from https://github.com/mjhea0/flaskr-tdd
 https://warm-retreat-48934.herokuapp.com/
 
 ## Test Cases Written For the Group Project
-test_favourites function
+test_favourites function:
 https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-9-2j2n/blob/SaveCourses/Education_Pathways/tests/test_app.py#L14-L17
 
 ## Pros and Cons of Test Driven Development
