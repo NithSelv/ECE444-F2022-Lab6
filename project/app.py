@@ -1,5 +1,4 @@
 from pathlib import Path
-from project import models
 from flask import (
     Flask,
     render_template,
@@ -38,6 +37,8 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 # init sqlalchemy
 db = SQLAlchemy(app)
+
+from project import models
 
 
 def login_required(f):
